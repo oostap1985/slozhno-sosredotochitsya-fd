@@ -232,9 +232,9 @@
   display: grid;
   grid-template-columns: 1fr; 
   grid-template-rows: repeat(4, min-content);
-  padding-block-start: 42px;
+  padding-block-start: 40px;
   padding-block-end: 38px;
-  gap: 53px;
+  gap: 50px;
 }
 
 @media (width >= 768px) {
