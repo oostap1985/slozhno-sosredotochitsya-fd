@@ -168,6 +168,8 @@
   inline-size: 25px;
   block-size: 25px;
   inset: auto auto 10px 10px; 
+  bottom: 10px;
+  left: 10px;
   border-inline-start: 1px solid #FF0070;
   border-block-end: 1px solid #FF0070;
 }
@@ -178,18 +180,21 @@
   display: block;
   inline-size: 25px;
   block-size: 25px;
-  inset: 10px 10px auto auto; 
+  top: 10px;
+  right: 10px;
   border-inline-end: 1px solid #FF0070;
   border-block-start: 1px solid #FF0070;
 }
 
 @media (width >= 768px) {
   .decorated-zone::before {
-    inset: auto auto 20px 20px;
+    bottom: 20px;
+    left: 20px;
   }
 
   .decorated-zone::after {
-    inset: 20px 20px auto auto;
+    top: 20px;
+    right: 20px;
   }
 }
 
@@ -238,8 +243,8 @@
 
 @media (width >= 768px) {
   .main { 
-    padding-block-start: 57px;
-    padding-block-end: 57px;
+    padding-block-start: 60px;
+    padding-block-end: 60px;
     gap: 80px;
   }
 }
@@ -288,7 +293,7 @@
 }
 
 .link {
-  text-shadow: 2px 1px 0 var(--accent-color, #FF0070); 
+  text-shadow: 2px 2px 0 var(--accent-color, #FF0070); 
   text-decoration: none;
 }
 
