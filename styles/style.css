@@ -305,6 +305,18 @@
   outline: 1px solid var(--color-main, #F1B2CE);
 }
 
+.section__gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (width >= 768px) {
+  .section__gallery {
+    gap: 20px;
+  }
+}
+
 .gallery {
   display: flex;
   flex-direction: column;
