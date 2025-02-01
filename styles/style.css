@@ -229,9 +229,8 @@
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 1fr; 
-  grid-template-rows: repeat(4, min-content);
+  display: flex;
+  flex-direction: column;
   padding-block-start: 40px;
   padding-block-end: 38px;
   gap: 50px;
@@ -463,4 +462,3 @@
 .footer-title {
   text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
 }
-
