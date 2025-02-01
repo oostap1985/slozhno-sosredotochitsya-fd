@@ -243,9 +243,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  padding-block-start: 42px;
-  padding-block-end: 42px;
-  gap: 53px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  gap: 50px;
 }
 
 @media (width >= 768px) {
