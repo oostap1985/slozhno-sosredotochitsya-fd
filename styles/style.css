@@ -174,7 +174,7 @@
   position: absolute;
   display: block;
   inline-size: 25px;
-  block-size: 25px; 
+  block-size: 25px;
   bottom: 10px;
   left: 10px;
   border-inline-start: 1px solid #FF0070;
@@ -309,7 +309,7 @@
 }
 
 .link {
-  text-shadow: 2px 2px 0 var(--accent-color, #FF0070); 
+  text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
   text-decoration: none;
 }
 
