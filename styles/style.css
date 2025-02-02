@@ -6,10 +6,6 @@
   background-size: cover;
   background-position: center;
   background-image: var(--background-image);
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
   background-attachment: fixed;
 }
 
@@ -254,14 +250,7 @@
   .main {
     padding-block-start: 60px;
     padding-block-end: 60px;
-    gap: 78px;
-  }
-}
-
-@media (width >= 1024px) {
-  .main {
-    padding-block-start: 57px;
-    padding-block-end: 57px;
+    gap: 80px;
   }
 }
 
