@@ -161,7 +161,7 @@
 
 @media (width >= 1024px) {
   .header__title-text {
-    margin-block-start: 5px;
+    margin-block-start: 15px;
   }
 }
 
