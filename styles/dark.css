@@ -23,13 +23,13 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
-
+  /* Для after и before прописал переменные в style.css, теперь ниже написанные можно удалить?*/
 .theme-light .decorated-zone::before {
-  border-inline-start: 1px solid #FF0070;
-  border-block-end: 1px solid #FF0070;
+  border-inline-start: 1px solid var(--theme-menu-color, #FF0070);
+  border-block-end: 1px solid var(--theme-menu-color, #FF0070);
 }
 
 .theme-light .decorated-zone::after {
-  border-inline-end: 1px solid #FF0070;
-  border-block-start: 1px solid #FF0070;
+  border-inline-end: 1px solid var(--theme-menu-color, #FF0070);
+  border-block-start: 1px solid var(--theme-menu-color, #FF0070);
 }
